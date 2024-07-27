@@ -42,13 +42,13 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import isEven from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-even@esm/index.mjs';
+import isEven from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-even@v0.2.2-esm/index.mjs';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { isObject, isPrimitive } from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-even@esm/index.mjs';
+import { isObject, isPrimitive } from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-even@v0.2.2-esm/index.mjs';
 ```
 
 #### isEven( value )
@@ -130,7 +130,7 @@ bool = isEven.isObject( new Number( 4.0 ) );
 <script type="module">
 
 import Number from 'https://cdn.jsdelivr.net/gh/stdlib-js/number-ctor@esm/index.mjs';
-import isEven from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-even@esm/index.mjs';
+import isEven from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-even@v0.2.2-esm/index.mjs';
 
 var bool = isEven( 4.0 );
 // returns true
